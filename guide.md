@@ -35,7 +35,7 @@
 
 1. [Git](https://git-scm.com/) 페이지에서 `Download for XXX` 버튼을 클릭합니다.
 
-   ![git download](../assets/1-2.png)
+   ![git download](./assets/1-2.png)
 
 1. 별도 설정없이 `next`를 눌러 설치하면 됩니다.
 
@@ -101,15 +101,15 @@
 
 1. [MinGW](https://sourceforge.net/projects/mingw/) 사이트 접속 후 `Download` 버튼을 클릭합니다.
 
-   ![visit mingw](../assets/2-1.png)
+   ![visit mingw](./assets/2-1.png)
 
 1. `Install` - `Continue` 버튼을 클릭합니다.
 
-   ![Install click](../assets/2-2.png)
+   ![Install click](./assets/2-2.png)
 
-   ![Continue click](../assets/2-3.png)
+   ![Continue click](./assets/2-3.png)
 
-   ![Done install mingw](../assets/2-4.png)
+   ![Done install mingw](./assets/2-4.png)
 
 1. MinGW 설치가 끝나면 아래와 같이 체크한 뒤 `Installation` - `Apply Changes` 를 클릭합니다.
 
@@ -118,11 +118,11 @@
    - mingw32-gcc-g++
    - msys-base
 
-   ![MinGW install check list](../assets/2-5.png)
+   ![MinGW install check list](./assets/2-5.png)
 
 1. `Apply` 버튼을 클릭해 설치합니다.
 
-   ![MinGW install apply](../assets/2-6.png)
+   ![MinGW install apply](./assets/2-6.png)
 
 1. `시스템 환경 변수 편집`을 검색해줍니다.
 
@@ -130,15 +130,15 @@
    >
    > 띄어쓰기에 주의해주세요.
 
-   ![search env](../assets/2-7.png)
+   ![search env](./assets/2-7.png)
 
 1. `환경 변수(N)...` 버튼을 클릭합니다.
 
-   ![click env](../assets/2-8.png)
+   ![click env](./assets/2-8.png)
 
 1. 시스템 변수에서 변수 `Path`를 찾아 클릭한 뒤, `편집` 버튼을 클릭합니다.
 
-   ![click edit](../assets/2-9.png)
+   ![click edit](./assets/2-9.png)
 
 1. `새로 만들기` 버튼을 클릭해 아래 2개의 값을 추가해줍니다.
 
@@ -147,7 +147,7 @@
    C:\MinGW\msys\1.0\bin
    ```
 
-   ![path](../assets/2-10.png)
+   ![path](./assets/2-10.png)
 
 1. 확인을 눌러 저장한 뒤, `git bash`를 열어 아래의 명령어를 입력해봅니다.
 
@@ -155,7 +155,7 @@
    gcc -v
    ```
 
-   ![git bash gcc -v](../assets/2-11.png)
+   ![git bash gcc -v](./assets/2-11.png)
 
    사진과 비슷하게 뜬다면 성공입니다.
 
@@ -177,13 +177,13 @@
    >
    > 현재 최신 버전은 3.12.2 입니다. 버전은 언제든지 바뀔 수 있습니다.
 
-   ![python downlaod](../assets/2-12.png)
+   ![python downlaod](./assets/2-12.png)
 
 1. `Add python.exe to PATH`를 꼭 체크한 뒤, `Install Now`를 클릭합니다.
 
-   ![python install](../assets/2-13.png)
+   ![python install](./assets/2-13.png)
 
-## VSC Extension 설정
+# VSC Extension 설정
 
 Extension 이름과 제공자를 확인하고 설치하세요.
 
@@ -198,27 +198,27 @@ Extension 이름과 제공자를 확인하고 설치하세요.
 
 1. `Extension` 탭에서 `Code Runner`를 설치합니다.
 
-   ![code runner](../assets/2-15.png)
+   ![code runner](./assets/2-15.png)
 
 ### 2. Git Graph
 
 1. `Extension` 탭에서 `Git Graph`를 설치합니다.
 
-   ![git graph](../assets/2-16.png)
+   ![git graph](./assets/2-16.png)
 
 ### 3-A. (C 사용자) C/C++
 
 1. `Extension` 탭에서 `C/C++`를 설치합니다.
 
-   ![C/C++](../assets/2-17.png)
+   ![C/C++](./assets/2-17.png)
 
 ### 3-B. (Python 사용자) Python
 
 1. `Extension` 탭에서 `Python`을 설치합니다.
 
-   ![Python](../assets/2-18.png)
+   ![Python](./assets/2-18.png)
 
-## 3. 기본 Terminal 설정 (git bash)
+### 4. 기본 Terminal 설정 (git bash)
 
 1. `ctrl + shift + p` 입력한 뒤, `terminal default`를 입력하면 아래와 같이 뜹니다.
 
@@ -226,20 +226,20 @@ Extension 이름과 제공자를 확인하고 설치하세요.
    Terminal: Select Default Profile
    ```
 
-   ![terminal deafult](../assets/2-19.png)
+   ![terminal deafult](./assets/2-19.png)
 
 1. `git bash`로 설정합니다.
 
-   ![git bash](../assets/2-20.png)
+   ![git bash](./assets/2-20.png)
 
-## 4. Code Runner 설정
+### 5. Code Runner 설정
 
 1. `Extension` 탭에서 Code Runner 우측 하단 톱니바퀴를 클릭 - `Extension Settings`을 클릭합니다.
 
    우측 설정창에서 `Run In Terminal`을 찾아 체크합니다.
 
-   ![Run In Terminal](../assets/2-21.png)
+   ![Run In Terminal](./assets/2-21.png)
 
 1. 1번과 마찬가지로 `Terminal Root` 를 찾아 `/`를 입력합니다.
 
-   ![Terminal Root](../assets/2-22.png)
+   ![Terminal Root](./assets/2-22.png)
