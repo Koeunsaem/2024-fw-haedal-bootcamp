@@ -243,3 +243,5 @@ Extension 이름과 제공자를 확인하고 설치하세요.
 1. 1번과 마찬가지로 `Terminal Root` 를 찾아 `/`를 입력합니다.
 
    ![Terminal Root](./assets/2-22.png)
+
+수정된 내용
